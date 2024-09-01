@@ -1,0 +1,18 @@
+.table-container-equipments{
+    max-height: 600px; /* Set the desired fixed height for the table container */
+    overflow-y: auto;
+    width: 1000px;
+    align-items: center;
+    padding-left: 35px;
+}
+.table-container-equipments::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scroll bar */
+  }
+  
+  .table-container-equipments::-webkit-scrollbar-thumb {
+    background-color: #333; /* Change the thumb color */
+  }
+  
+  .table-container-equipments::-webkit-scrollbar-track {
+    background-color: #555; /* Change the track (background) color */
+  }

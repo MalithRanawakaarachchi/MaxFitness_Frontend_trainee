@@ -1,0 +1,186 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 100vh;
+    background-color: #212020;
+    padding: 2rem 1rem 1rem 1rem;
+    transition: transform 0.4s;
+}
+.navbar{
+    transform: translateX(-100%);
+}
+.border{
+    border-style: solid;
+    border-color: white;
+}
+.logo{
+    padding-left: 13px;
+    display: block;
+    width: 100px;
+    margin: auto;
+    background: transparent;
+}
+.logo-img{
+    display: block;
+    width: 70px;
+    height:70px;
+}
+.nav-link{
+    color: #b5b5b5;
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+.navv{
+    margin: 0px;
+    margin-left: -13px;
+    margin-right: -13px;
+    padding: 0px;
+    width:180px;
+    height:45px;
+    display: flex;
+}
+.nav-row{
+    width:100%;
+}
+.nav-text{
+    width: 100%;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.nav-link span{
+    margin-left: 10px;
+}
+.nav-link.selected span{
+    color: aqua;
+}
+.nav-top{
+    margin-top: 6rem;
+}
+.active-link:select {
+    color: red; /* Change this to the desired color */
+  }
+.mobile-nav{
+    background-color: gray;
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+.mobile-nav-btn{
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+}
+.profile-div{
+    margin-top: 90px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
+.icon-color{
+    color: white;
+}
+.buttonVisible{
+    visibility: hidden;
+}
+.btnn{
+    width: 50%;
+}
+.nav-btn{
+    position: absolute;
+    transform: translateX(25px);
+    top: 20px;
+    right: 0;
+    width: 30px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212020;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+@media only screen and (max-width:850px){
+    .nav-btn{
+        position: absolute;
+        transform: translateX(25px);
+        top: 20px;
+        right: 0;
+        width: 30px;
+        height: 40px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #212020;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        padding: 5px;
+        cursor: pointer;
+        visibility: visible;
+    }
+}
+
+
+
+@media only screen and (min-width: 851px){
+    .navbar{
+        transform: translateX(0%);
+    }
+}
+@media only screen and (max-width: 450px){
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        width: 200px;
+        top: 38px;
+        
+    }
+    .nav-btn{
+        display: none;
+    }
+}
+.nav-link-style {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.nav-link-style :hover{
+    box-shadow: 0 0 10px #bba517;
+    transform: scale(1.05);
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    z-index: 999;
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .overlay.visible {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  

@@ -1,0 +1,28 @@
+.font-style{
+    color: rgb(174, 174, 174);
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-input{
+    margin-bottom: 30px;
+    height:35px
+}
+
+.special-notes{
+    height: 80px;
+}
+
+.note-line{
+    color: rgb(174, 174, 174);
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 227px;
+}
+
+.color{
+    color: rgb(174, 174, 174);
+}

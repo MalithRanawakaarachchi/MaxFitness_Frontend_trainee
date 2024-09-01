@@ -1,0 +1,23 @@
+.pro-container-arms{
+    width: 1195px;
+    height: calc(100vh - 100px);
+    right: 0px;
+    position: fixed;
+    top: 100px; 
+    background-color: white; 
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  */
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.hide-visibility-arms{
+    display: none;
+}
+
+.schedule-background-arms{
+    background-color: #282828;
+    align-items: center;
+}
+
+.table-background-arms{
+    background-color: #282828;
+}

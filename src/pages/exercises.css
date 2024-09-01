@@ -1,0 +1,45 @@
+.hide-visibility{
+    display: none;
+}
+.arms-actions > img {
+    transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.arms-actions:hover > img {
+    transform: scale(1.2);
+}
+.legs-actions {
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.legs-actions:hover{
+    transform: scale(1.2);
+}
+.chest-actions {
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.chest-actions:hover{
+    transform: scale(1.2);
+}
+.shoulders-actions {
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.shoulders-actions:hover{
+    transform: scale(1.2);
+}
+.abs-actions {
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.abs-actions:hover{
+    transform: scale(1.2);
+}
+.back-actions {
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.back-actions:hover{
+    transform: scale(1.2);
+}

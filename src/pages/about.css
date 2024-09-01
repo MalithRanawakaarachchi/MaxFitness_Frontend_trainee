@@ -1,0 +1,50 @@
+.main-title-text{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.title-text{
+    font-size: 28px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.description-text{
+    color: aliceblue;
+    text-align: justify;
+}
+
+.scrollable-content {
+    height: 690px; /* Set the desired height for the scrollable area */
+    overflow: auto; /* Add scrollbars if content overflows */
+  }
+
+.color{
+    color:rgb(154, 154, 154);
+}
+
+.bottom-text{
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* For WebKit (Chrome, Safari, and newer versions of Edge) */
+.scrollable-content::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scroll bar */
+  }
+  
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background-color: #333; /* Change the thumb color */
+  }
+  
+  .scrollable-content::-webkit-scrollbar-track {
+    background-color: #555; /* Change the track (background) color */
+  }
+  

@@ -1,0 +1,38 @@
+.schedule-background{
+    background-color: #282828;
+    align-items: center;
+}
+.title-div{
+    color: #C0C300;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.table-container-schedules{
+    max-height: 600px; /* Set the desired fixed height for the table container */
+    overflow-y: auto;
+    width: 1000px;
+    align-items: center;
+    padding-left: 35px;
+}
+.table-container-schedules::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scroll bar */
+  }
+  
+  .table-container-schedules::-webkit-scrollbar-thumb {
+    background-color: #333; /* Change the thumb color */
+  }
+  
+  .table-container-schedules::-webkit-scrollbar-track {
+    background-color: #555; /* Change the track (background) color */
+  }
+.tr-height{
+    height: 80px;
+}
+.table-column-data{
+    vertical-align: middle;
+}
+.thh-color{
+    background-color: #ff0202;
+    color: white;
+}
